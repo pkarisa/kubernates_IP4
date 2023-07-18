@@ -22,7 +22,7 @@ In each directory (client, backend and database), create the necessary Kubernete
 * PVC (PersistentVolumeClaim): If applicable, set up persistent storage for the backend component.
 You can create the YAML files for these Kubernetes objects based on the requirements of your YOLO app.
 
-Apply the Kubernetes using the kubectl apply command. 
+Apply Kubernetes using the kubectl apply command. 
 
 # Technology Used
 The project is mainly built using YAML .
