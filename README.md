@@ -6,7 +6,7 @@ This project utilizes Kubernetes to orchestrate the YOLO app on a cluster and ex
 # Set up
 To get started with  Kubernetes Orchestration, follow the steps below:
 
-Ensure that you have minikube and kubectl are installed on your local machine. This allows you to run Kubernetes clusters locally for testing and development purposes.
+Ensure that you have minikube and kubectl are installed on your local machine. This will allow  you to run Kubernetes clusters locally for testing and development purposes.
 Clone this repository to your local machine using git clone.
 Start Minikube on your machine. You can use the following command to start Minikube:
 minikube start
