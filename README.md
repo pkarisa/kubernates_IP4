@@ -24,3 +24,6 @@ Apply the Kubernetes using the kubectl apply command.
 
 # Technology Used
 The project is mainly built using YAML .
+
+
+
