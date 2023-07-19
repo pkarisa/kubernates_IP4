@@ -8,7 +8,7 @@ The services for both client and backend are set to ensure that they are exposed
 
 ## Storage solutions
 
-The project uses a local Mongo DB connection and a persistent volume size of 1Gi. This volume is linked to the backend deployment since they are interdependent. The config map stores the DB URL to the local Mongo DB.
+For the MongoDB database, to ensure persistent storage for data integrity it will use Kubernetes PersistentVolume (PV) and PersistentVolumeClaim (PVC). The PersistentVolume is a cluster-wide resource that represents a physical storage device, while the PersistentVolumeClaim is a request for storage by a pod. The PVC binds to the PV, providing a reliable storage solution for MongoDB data.
 
 ## Git workflow
 
