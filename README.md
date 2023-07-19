@@ -27,7 +27,8 @@ Apply Kubernetes using the kubectl apply command.
 # Technology Used
 The project is mainly built using YAML .
 
-### License MIT License: Copyright (c) 2023
+### License MIT License
+Copyright (c) 2023
 
 
 
